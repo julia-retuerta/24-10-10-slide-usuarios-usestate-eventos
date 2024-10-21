@@ -1,10 +1,11 @@
+import Slider from './components/slider/Slider';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
   return (
     <>
       <GlobalStyles />
-      <h1>REACT</h1>;
+      <Slider />
     </>
   );
 };
